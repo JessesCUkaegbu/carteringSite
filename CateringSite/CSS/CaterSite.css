@@ -1,0 +1,132 @@
+*body{
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+.head-section ul{
+    list-style: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.head-section li{
+    display: inline-block;
+}
+.logo{
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.head-section a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 23px;
+    display: block;
+    margin: 8px;
+    color: black;
+}
+.head-section a:hover{
+    background-color: lightgray;
+}
+
+.banner{
+    background-image: url('../Images/bg-img.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner h3{
+    padding-top: 50%;
+}
+.style{
+    padding: 10px;
+    color: white;
+}
+.about-title{
+    font-family: Playfair Display;
+    text-align: center;
+    letter-spacing: 5px;
+    color: black;
+}
+.about-detail{
+    margin: 20px;
+    padding-top: 30px;
+}
+.sub-title{
+    font-family: Playfair Display;
+    text-align: center;
+    letter-spacing: 5px;
+    color: black;
+}
+.about p{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding: 5px;
+}
+.about .p-color{
+    color: rgb(180, 179, 179);
+}
+
+.menu h3{
+    font-family: Playfair Display;
+    letter-spacing: 5px;
+    color: black;
+}
+.menu p{
+    padding-top: 5px;
+    color: rgb(139, 139, 139);
+}
+
+.contact-section{
+    margin-top: 25px;
+}
+.contact-section h3{
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        margin-bottom: 25px;
+}
+.contact-section p{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin: 18px 8px;
+}
+.contact-section .text-style{
+    font-size: 18px;
+    color: rgb(108, 159, 177);
+}
+
+.form input{
+    width: 100%;
+    padding: 18px 20px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+.form{
+    margin: 5px;
+}
+.form button{
+    text-transform: uppercase;
+    padding: 12px 18px;
+    border: none;
+    color: black;
+    background-color: lightgray;
+}
+.footer-section a{
+    text-decoration: none;
+    color: black;
+}
+.footer-bg{
+    background-color: rgb(175, 173, 173);
+}
